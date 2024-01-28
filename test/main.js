@@ -47,11 +47,11 @@ describe('DOM', () => {
 		expect(subscriptionPrice).to.be.a('number');
 	});
 
-	it("should have 30 as a number in '.card__mark' element", () => {
-		const cardMarkContent =
-			document.querySelector('.card__mark').textContent;
+	it("should have 30 as a number in '.card__subtitle' element", () => {
+		const cardSubtitleContent =
+			document.querySelector('.card__subtitle').textContent;
 
-		expect(cardMarkContent).to.contain(30);
+		expect(cardSubtitleContent).to.contain(30);
 	});
 
 	it('should have an array type of why us points data', () => {
